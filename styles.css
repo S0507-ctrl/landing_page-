@@ -1,0 +1,174 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(6, 6, 41);
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar a:hover {
+    color: rgb(248, 237, 237);
+    text-decoration:underline;
+    border: 10px;
+    padding: 5px 0 5px 0;
+    border: 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.homepage {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+    padding-bottom: 5px;
+}
+
+.image:hover img{
+    transform: scale(1.2);
+}
+
+.about_home {
+    flex: 1;
+}
+
+.about_home h1 {
+    font-size: 2rem;
+}
+
+.about_home h2 {
+    font-size: 1.6rem;
+    color: #040536;
+    justify-content: center;
+}
+
+.about_home p {
+    font-size: 0.9rem;
+    text-shadow: #333;
+}
+
+#Product {
+    background-color: white;
+}
+
+.features h1 {
+    color: black;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding-top: 0%;
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+.product-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.reviews-section .review {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.review img {
+    height: 65px;
+    padding-top: 35px;
+}
+
+.container h2{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.order-section button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#mrp {
+    text-decoration: line-through;
+}
+
+.order-section button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #6264e9;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
